@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="userTypes">
+        <item name="1">Student</item>
+        <item name="2">Visitor</item>
+    </string-array>
+    <string-array name="userTypeValues">
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+    <string-array name="tours">
+        <item>Bath University Campus</item>
+        <item>Computer Science Department</item>
+        <item>Pharmacy Department</item>
+    </string-array>
+    
+     
+</resources>

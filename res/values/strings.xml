@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bath Buddy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="map_display">Display Full Map</string>
+    <string name="map_set_waypoint">Waypoints</string>
+    <string name="map_set_start">Set Start Point</string>
+    <string name="map_set_destination">Set Destination</string>
+    <string name="title_activity_main_menu">Bath Buddy Home</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_timetable">Timetable</string>
+    <string name="title_activity_student_menu">Student Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user_setting">Settings</string>
+    <string name="title_settings_page">Bath Buddy Settings</string>
+    <string name="pref_user_title">User Type</string>
+    <string name="pref_user_title_summary">Are you a student here, or just visiting?</string>
+    <string name="title_activity_tour">Tour Select</string>
+
+</resources>

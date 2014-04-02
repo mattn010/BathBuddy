@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+    
+<LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:padding="50dp">
+
+<Spinner
+    android:id="@+id/tours_spinner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+ </LinearLayout>
+<LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:padding="50dp">
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Start Tour"
+    android:onClick="goToOpenDay" />
+ </LinearLayout>
+</LinearLayout>

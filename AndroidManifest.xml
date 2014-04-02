@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bathbuddy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.bathbuddy.MainMenu"
+            android:label="@string/title_activity_main_menu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name="com.example.bathbuddy.Map"
+            android:label="@string/title_activity_map" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            android:parentActivityName="com.example.bathbuddy.StudentMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bathbuddy.StudentMenu" />
+        </activity>
+        <activity
+            android:name="com.example.bathbuddy.Timetable"
+            android:label="@string/title_activity_timetable" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            android:parentActivityName="com.example.bathbuddy.StudentMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bathbuddy.StudentMenu" />
+        </activity>
+        <activity
+            android:name="com.example.bathbuddy.StudentMenu"
+            android:label="@string/title_activity_student_menu"
+            android:parentActivityName="com.example.bathbuddy.MainMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bathbuddy.MainMenu" />
+        </activity>
+        <activity
+            android:name="com.example.bathbuddy.UserSettingActivity"
+            android:label="@string/title_activity_user_setting" >
+        </activity>
+        <activity
+            android:name="com.example.bathbuddy.TourActivity"
+            android:label="@string/title_activity_tour"
+            android:parentActivityName="com.example.bathbuddy.MainMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.bathbuddy.MainMenu" />
+        </activity>
+    </application>
+
+</manifest>
